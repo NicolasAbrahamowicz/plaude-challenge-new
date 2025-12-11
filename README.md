@@ -36,7 +36,7 @@ It implements an **Operations Agent** with a human-in-the-loop approval step usi
 - **SLACK_APPROVAL_WEBHOOK_URL=https://hooks.slack.com/services/...**
 
 
-- **The webhook URL should only live in your .env.local, never in the code or repo.**
+- **The webhook URL should only live in your .env.local, never in the code.**
 
 ## Running locally
 
