@@ -20,7 +20,7 @@ It implements an **Operations Agent** with a human-in-the-loop approval step usi
 
 # A VERY COMMON ERROR:
 ## "Sorry, something went wrong while processing your request. The team has been notified."
-**If this happens, is 99% because of GROQ API limits, wait 1 minute and send a message again, with a paid API this should never happen**
+**If this happens, is 99% because of GROQ API limits (you can check in your IDE console), wait 1 minute and send a message again, with a paid API this should never happen**
 
 # PLEASE TAKE INTO CONSIDERATION, SETUP BELOW MUST BE DONE IN ORDER FOR IT TO WORK LOCALLY, I SENT A YOUTUBE VIDEO WITH A BIT OF EXPLANATION ON THE SLACK STEPS, IT CAN BE DONE IN 5 MINUTES
 
