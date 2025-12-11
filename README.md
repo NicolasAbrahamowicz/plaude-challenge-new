@@ -18,6 +18,10 @@ It implements an **Operations Agent** with a human-in-the-loop approval step usi
   - `/api/slack-decision` saves the human decision (approve/reject) in memory.
   - The frontend polls `/api/approval-status` and automatically posts an assistant message when the decision is available (no extra user input required).
 
+# A VERY COMMON ERROR:
+## "Sorry, something went wrong while processing your request. The team has been notified."
+**If this happens, is 99% because of GROQ API limits, wait 1 minute and send a message again, with a paid API this should never happen**
+
 # PLEASE TAKE INTO CONSIDERATION, SETUP BELOW MUST BE DONE IN ORDER FOR IT TO WORK LOCALLY, I SENT A YOUTUBE VIDEO WITH A BIT OF EXPLANATION ON THE SLACK STEPS, IT CAN BE DONE IN 5 MINUTES
 
 ## Slack webhook setup
